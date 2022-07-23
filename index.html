@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/ca25be580a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+      <div class="card">
+        <img src="assets/img/labial.jpg" alt="labial">
+        <div class="card-info">
+            <p>Labial Clinique Mate</p>
+            <p>ID 15492</p>
+            <p>Precio: $25.000</p>
+            <div class="form">
+                <div class="container-cantidad">
+                  <label for="qty">Cantidad a comprar</label>
+                  <input id="qty" type="number" maxlength="10" placeholder="0">
+                </div>
+                <div class="container-color">
+                  <label for="color">Color a comprar</label>
+                  <select id="color">
+                      <option value="#8b0000">Rojo</option>
+                      <option value="#f88379">Coral</option>
+                      <option value="#ffb6c1">Nude</option> 
+                  </select>
+                </div>
+                <button id="btn">Agregar al carro</button>
+            </div>
+        </div>
+      </div>
+      <div class="cart">
+        <div class="icon-container">
+         <i class="fas fa-shopping-cart"></i>
+        </div>
+        <h2>Carro de compras</h2>
+        <div class="cart-info">
+          <p>Cantidad: <span id="selected-qty"></span></p>
+          <p>Color:</p>
+          <div id="selected-color"></div>
+          <p>Total: $<span id="total"></span></p>
+        </div>
+      </div>
+    </main>
+<script src="assets/js/script.js"></script>
+</body>
+</html>

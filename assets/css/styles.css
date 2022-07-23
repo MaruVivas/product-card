@@ -1,0 +1,128 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-size: 62,5%;
+    }
+
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 20rem;
+        box-shadow: 1px 1px 5px grey;
+        overflow: hidden;
+        border-radius: 20px;
+        
+    }
+
+    img {
+        width: 100%;
+        
+    }
+
+    .card-info {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 1rem 0 1rem 1rem;
+    }
+
+    .card-info p:first-child{
+        color: #a11627;
+        font-weight: bold;
+    }
+
+    .card-info p:nth-child(2){
+        font-size: 12px;
+    }
+
+    .card-info p:nth-child(3){
+        font-weight: bold;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin: 1rem 0; 
+    }
+
+    label {
+        font-size: 14px;
+        margin-right: 1rem;
+        color: #a11627;
+        font-weight: bold;
+    }
+
+    .form > div {
+        margin-bottom: 0.5rem;
+    }
+
+    #qty, #color, #btn {
+        width: 4rem;
+        border: 2px solid #a11627;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    #btn {
+        margin-top: 0.5rem;
+        width: 10rem;
+        padding: 0.5rem;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        color: #a11627; 
+        font-weight: bold;
+    }
+
+    #btn:hover {
+        background-color: #a11627 ;
+        color: #fff;
+    }
+
+    .cart {
+        border: 2px solid black;
+        border-radius: 20px;
+        padding: 2rem 3rem;
+        margin-left: 2rem; 
+    }
+
+    .icon-container {
+        text-align: center;
+        color: #a11627;
+    }
+
+    h2 {
+        font-size: 18px;
+        color: #a11627;
+        font-weight: bold;
+    }
+
+    .cart-info {
+        margin-top: 1rem;
+    }
+
+    .cart-info p {
+        margin-bottom: 0.5rem;
+    }
+
+    #selected-color {
+        width: 1rem;
+        height: 1rem;
+        border: 2px solid black;
+        border-radius: 50px;
+        margin-bottom: 0.5rem;
+    }
+
+    span {
+        font-weight: bold;
+    }
